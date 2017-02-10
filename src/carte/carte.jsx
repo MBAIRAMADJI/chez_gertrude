@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './carte.css';
 
 class Carte extends React.Component{
 	render(){
@@ -91,7 +91,7 @@ class Carte extends React.Component{
 			<div className="col-lg-6 description">
 			<h3 className="sous-titre">Salade de saison</h3><span>14euro</span>
 				
-				<p>Toujours à l\heure, la salade de saison vous régalera avec ses légumes</p>
+				<p>Toujours à l'heure, la salade de saison vous régalera avec ses légumes</p>
 			
 				
 
