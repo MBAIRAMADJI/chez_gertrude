@@ -9,6 +9,8 @@ class App extends Component {
 
 			<div>
 				<Carte />
+				<Contact />
+				<Footer />
 			</div>
 
 		);

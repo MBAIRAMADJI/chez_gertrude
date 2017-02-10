@@ -1,0 +1,14 @@
+footer {
+  background-color: #EAEAEA;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ul{
+  list-style-type: none;
+}
+
+.liens li{
+  display: inline-block;
+  margin: 30px;
+}
