@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
+import Carte from './carte/carte.jsx';
+
 
 class App extends Component {
-  render() {
-    return (
-    	<div>
+	render() {
+		return (
 
+			<div>
+				<Carte />
+			</div>
 
-    	</div>
-      
-    );
-  }
+		);
+	}
 }
 
 export default App;
