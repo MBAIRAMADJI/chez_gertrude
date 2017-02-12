@@ -3,6 +3,7 @@ import './App.css';
 import Carte from './carte/carte.jsx';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
+import Menu from './menu/menu';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
 		return (
 
 			<div>
+				<Menu />
 				<Carte />
 				<Contact />
 				<Footer />

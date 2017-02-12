@@ -9,13 +9,13 @@ body {
 
 h1{
 	text-align: center;
-	font-family: Croissant one;
+	font-family: 'Croissant One';
 }
 
 .paragraphe{
 	
 	text-align: center;
-	font-family: Croissant
+	font-family: 'Croissant One';
 
 }
 
@@ -26,12 +26,12 @@ h1{
 
 h2{
 	margin-left: 20px;
-	font-family:  Croissant one;
+	font-family:  'Croissant One';
 }	
 
 
 h3{
-	font-family:  Croissant one;
+	font-family:  'Croissant One';
 }
 
 
@@ -53,7 +53,7 @@ h3{
 	
 	text-align: center;
 	width: 100%;
-	font-family: Croissant one;
+	font-family: 'Croissant One';
 }
 
 img{
@@ -63,13 +63,16 @@ img{
 	margin: 12px;
 	border-radius: 30%;
 }
-
+@font-face {
+	font-family: 'Rolade free';
+	src: url('../fonts/Rolade Free.ttf');
+}
 
 p{
 	display: flex;
 	justify-content: center;
 	text-align: left;
-	font-family: Rolade free ;
+	font-family: 'Rolade free';
 }
 
 .glyphicon{
@@ -82,5 +85,5 @@ p{
 }
 .price{
 
-	font-family: Rolade free;
+	font-family: 'Rolade free';
 }
