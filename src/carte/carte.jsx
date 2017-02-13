@@ -34,7 +34,7 @@ class Carte extends React.Component{
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Poulet aux morilles</h3><span>23euro</span>
+			<h3 className="sous-titre">Poulet aux morilles</h3><span className="price">23euro</span>
 				
 				<p>Un grand classique le poulet de Bresse aux morilles et à la crème. 
 					<br/>Si vous ne trouvez pas de volaille de Bresse, choisissez un bon poulet fermier, 
@@ -60,7 +60,7 @@ class Carte extends React.Component{
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Tagine aux pruneaux</h3><span>18euro</span>
+			<h3 className="sous-titre">Tagine aux pruneaux</h3><span className="price">18euro</span>
 				
 				<p>Un des plus célèbres Tajines Marocains, servi avec une délicieuse viande de veau<br/> et des pruneaux issus de l agriculture biologique.</p>
 			
@@ -85,7 +85,7 @@ class Carte extends React.Component{
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Salade de saison</h3><span>14euro</span>
+			<h3 className="sous-titre">Salade de saison</h3><span className="price">14euro</span>
 				
 				<p>Toujours à l'heure, la salade de saison vous régalera avec ses légumes</p>
 			
