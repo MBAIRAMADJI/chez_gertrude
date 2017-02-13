@@ -8,7 +8,9 @@ ul{
   list-style-type: none;
 }
 
-.liens li{
-  display: inline-block;
-  margin: 30px;
+.liens img{
+	height: 50px;
+	width: auto;
+	margin-top: 25px;
 }
+
