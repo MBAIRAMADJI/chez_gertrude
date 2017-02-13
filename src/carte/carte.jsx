@@ -5,7 +5,7 @@ class Carte extends React.Component{
 	render(){
 		return(
 			
-		<div>
+		<div id="carte">
 
 			<h1 className="titre">La bonne bouffe</h1>
 			

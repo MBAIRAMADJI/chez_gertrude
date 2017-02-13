@@ -7,7 +7,7 @@ class Contact extends React.Component {
   // }
   render(){
     return (
-      <div className="container-fluid">
+      <div id="contact" className="container-fluid">
         <div className="row">
           <div className="col-lg-12 col-sm-12">
             <h2><span className="glyphicon glyphicon-map-marker"> Comment nous trouver</span></h2>

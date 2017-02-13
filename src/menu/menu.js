@@ -22,8 +22,8 @@ constructor(props) {
 					<div>
 						<ul id="my_menu" style={{"marginLeft":"300px"}}>
 							<li><a href="#">Accueil</a></li>
-							<li><a href="#">Carte</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#carte">Carte</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 						<a onClick={this.showCart} href="#"><button className='btn btn-warning btn-lg' style={{"marginRight":"20px"}}>Panier
