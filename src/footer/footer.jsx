@@ -25,6 +25,7 @@ class Footer extends React.Component {
               </ul>
 
             </div>
+ 
 
             
 
@@ -44,6 +45,18 @@ class Footer extends React.Component {
 
           </div>
 
+         
+
+
+            
+            <div className="col-lg-6 liens text-right">
+              <a href="https://www.facebook.com/"><img src="http://simpleicon.com/wp-content/uploads/facebook-2.png" alt="Facebook"/></a>
+          
+              <a href="https://twitter.com/"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" alt="Twitter"/></a>
+                   
+              <a href="https://www.instagram.com/"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/78-instagram-512.png" alt="Instagram"/></a>
+            </div>
+          </div>
          
 
         </div>
