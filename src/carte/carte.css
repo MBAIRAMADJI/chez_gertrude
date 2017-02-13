@@ -1,3 +1,5 @@
+
+
 body {
   
   margin: 0;
@@ -7,7 +9,8 @@ body {
 
 }
 
-h1{
+.titre{
+	margin-top: 250px;
 	text-align: center;
 	font-family: 'Croissant One';
 }
@@ -15,7 +18,7 @@ h1{
 .paragraphe{
 	
 	text-align: center;
-	font-family: 'Croissant One';
+	font-family: 'Pompiere',cursive;
 
 }
 
@@ -24,7 +27,7 @@ h1{
 	border-bottom: 1px solid #dbdbdb;
 }
 
-h2{
+.plats{
 	margin-left: 20px;
 	font-family:  'Croissant One';
 }	
@@ -56,23 +59,21 @@ h3{
 	font-family: 'Croissant One';
 }
 
-img{
+.carte_img{
 	
 	height: 250px;
 	width: 200px;
 	margin: 12px;
 	border-radius: 30%;
 }
-@font-face {
-	font-family: 'Rolade free';
-	src: url('../fonts/Rolade Free.ttf');
-}
+
 
 p{
 	display: flex;
 	justify-content: center;
 	text-align: left;
-	font-family: 'Rolade free';
+	font-family:'Pompiere',cursive;
+	font-size: 20px;
 }
 
 .glyphicon{
@@ -85,5 +86,5 @@ p{
 }
 .price{
 
-	font-family: 'Rolade free';
+	font-family: 'Pompiere', cursive;
 }

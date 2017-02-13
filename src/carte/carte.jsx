@@ -7,12 +7,8 @@ class Carte extends React.Component{
 			
 		<div>
 
-
-
-			<h1>La bonne bouffe</h1>
+			<h1 className="titre">La bonne bouffe</h1>
 			
-			
-
 			<p className="paragraphe">
 
 			Venez goûter nos plats préparés avec amours et bienveillance. Notre chef Gertrude viendra probablement vous serrer la main. 
@@ -25,7 +21,7 @@ class Carte extends React.Component{
 			<div className="border"></div>
 			
 
-			<h2>Plats :</h2>
+			<h2 className='plats'>Plats :</h2>
 
 	
 
@@ -34,7 +30,7 @@ class Carte extends React.Component{
 		<div className="poulet row">
 
 		<div className="col-md-3 photo">
-			<img src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg"/>	
+			<img className="carte_img"src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
@@ -60,7 +56,7 @@ class Carte extends React.Component{
 		<div className="pruneaux row">
 
 		<div className="col-md-3 photo">
-			<img src="https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg"/>	
+			<img className="carte_img" src="https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
@@ -85,7 +81,7 @@ class Carte extends React.Component{
 		<div className="salade row">
 
 		<div className="col-md-3 photo">
-			<img src="http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"/>	
+			<img className="carte_img" src="http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
