@@ -29,7 +29,7 @@ class Carte extends React.Component{
 		<div className="hover">
 		<div className="poulet row">
 
-		<div className="col-md-3 photo">
+		<div className="col-md-3 col-sm-3  photo">
 			<img className="carte_img"src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg"/>	
 		</div>
 			

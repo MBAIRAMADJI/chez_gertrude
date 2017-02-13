@@ -18,7 +18,7 @@ constructor(props) {
 		return (
 			<div>
 				<div id="header">
-					<p style={{"marginLeft":"40px", "fontFamily":"Bad Script", "fontSize":"22px"}}><a href="#">Chez Gertrude</a></p>
+					<p style={{"marginLeft":"40px", "fontFamily":"Bad Script", "fontSize":"40px"}}><a href="#">Chez Gertrude</a></p>
 					<div>
 						<ul id="my_menu" style={{"marginLeft":"300px"}}>
 							<li><a href="#">Accueil</a></li>
@@ -26,7 +26,7 @@ constructor(props) {
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
-						<a onClick={this.showCart} href="#"><button className='btn btn-warning btn-lg' style={{"marginRight":"20px"}}>Panier
+						<a onClick={this.showCart} href="#"><button className='btn btn-default btn-lg' style={{"marginRight":"20px"}}>Panier
 						 	
 						</button></a>
 						{this.state.isHidden && <Dropdown /> }
