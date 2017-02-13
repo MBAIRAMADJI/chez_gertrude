@@ -5,14 +5,10 @@ class Carte extends React.Component{
 	render(){
 		return(
 			
-		<div>
+		<div id="carte">
 
-
-
-			<h1>La bonne bouffe</h1>
+			<h1 className="titre">La bonne bouffe</h1>
 			
-			
-
 			<p className="paragraphe">
 
 			Venez goûter nos plats préparés avec amours et bienveillance. Notre chef Gertrude viendra probablement vous serrer la main. 
@@ -25,7 +21,7 @@ class Carte extends React.Component{
 			<div className="border"></div>
 			
 
-			<h2>Plats :</h2>
+			<h2 className='plats'>Plats :</h2>
 
 	
 
@@ -34,11 +30,11 @@ class Carte extends React.Component{
 		<div className="poulet row">
 
 		<div className="col-md-3 photo">
-			<img src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg"/>	
+			<img className="carte_img"src="http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Poulet aux morilles</h3><span>23euro</span>
+			<h3 className="sous-titre">Poulet aux morilles</h3><span className="price">23euro</span>
 				
 				<p>Un grand classique le poulet de Bresse aux morilles et à la crème. 
 					<br/>Si vous ne trouvez pas de volaille de Bresse, choisissez un bon poulet fermier, 
@@ -60,11 +56,11 @@ class Carte extends React.Component{
 		<div className="pruneaux row">
 
 		<div className="col-md-3 photo">
-			<img src="https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg"/>	
+			<img className="carte_img" src="https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Tagine aux pruneaux</h3><span>18euro</span>
+			<h3 className="sous-titre">Tagine aux pruneaux</h3><span className="price">18euro</span>
 				
 				<p>Un des plus célèbres Tajines Marocains, servi avec une délicieuse viande de veau<br/> et des pruneaux issus de l agriculture biologique.</p>
 			
@@ -85,11 +81,11 @@ class Carte extends React.Component{
 		<div className="salade row">
 
 		<div className="col-md-3 photo">
-			<img src="http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"/>	
+			<img className="carte_img" src="http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"/>	
 		</div>
 			
 			<div className="col-lg-6 description">
-			<h3 className="sous-titre">Salade de saison</h3><span>14euro</span>
+			<h3 className="sous-titre">Salade de saison</h3><span className="price">14euro</span>
 				
 				<p>Toujours à l'heure, la salade de saison vous régalera avec ses légumes</p>
 			
